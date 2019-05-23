@@ -40,6 +40,6 @@ function destructivelyRemoveElementFromEndOfArray(a){
 }
 
 function removeElementFromEndOfArray(a){
-  var aNew = [a.pop()]
+  var aNew = a.slice(0,a.length-1)
   return aNew
 }
