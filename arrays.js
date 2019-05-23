@@ -21,6 +21,6 @@ function destructivelyAddElementToEndOfArray(a,b){
 }
 
 
-function accessElementInArry(a,b){
+function accessElementInArray(a,b){
   console.log(a[b])
 }
