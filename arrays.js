@@ -31,11 +31,12 @@ function destructivelyRemoveElementFromBeginningOfArray(a,b){
 }
 
 function removeElementFromBeginningOfArray(a){
-  var aNew = a.slice(1)
-  return aNew
+  return a.slice(1)
 }
 
 function destructivelyRemoveElementFromEndOfArray(a){
   a.pop()
   return a
 }
+
+function removeElementFromEndOfArray()
